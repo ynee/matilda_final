@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+.body {font-family: 'Ultra', serif; font-size: 125px; text-align: center; color: #bc0d1b;}
+
+
+.sprite {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg,
+    #ffd836 25%, #ffc239 0, #ffc239 50%,
+    #ffd836 0, #ffd836 75%, #ffc239 0);
+    -webkit-background-size:150px 150px;
+    position: absolute;
+    z-index: -999;
+}
+
+
+
+@-webkit-keyframes red-c {
+	0% {margin-top:0;}
+	50% {margin-top: 500px;}
+	100% {margin-top: 0;}
+}
+.red-c {position: absolute; width: 100px; top: 150px; left: 650px;
+animation-name: red-c; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes green-c {
+	0% {margin-top:0;}
+	50% {margin-top: 400px;}
+	100% {margin-top: 0;}
+}
+.green-c {position: absolute; width: 100px; top: 350px; left: 30px;
+animation-name: green-c; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes purple-c {
+	0% {margin-top:0;}
+	50% {margin-top: -700px;}
+	100% {margin-top: 0;}
+}
+.purple-c {position: absolute; width: 100px; top: 850px; left: 300px;
+animation-name: purple-c; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes blue-c-r {
+	0% {margin-top:0;}
+	50% {margin-top: 800px;}
+	100% {margin-top: 0;}
+}
+.blue-c-r {position: absolute; width: 100px; top: 80px; left: 1770px;
+animation-name: blue-c-r; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes orange-c-r { 
+	0% {margin-top:0;}
+	50% {margin-top: 480px;}
+	100% {margin-top: 0;}
+}
+.orange-c-r {position: absolute; width: 100px; top: 100px; left: 1480px;
+animation-name: orange-c-r; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes spoon { 
+	0% {margin-top:0;}
+	50% {margin-top: -400px;}
+	100% {margin-top: 0;}
+}
+.spoon {position: absolute; width: 180px; top: 450px; left: 450px;
+animation-name: spoon; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes purple-c2-r { 
+	0% {margin-top:0;}
+	50% {margin-top: 300px;}
+	100% {margin-top: 0;}
+}
+.purple-c2-r {position: absolute; width: 120px; top: 250px; left: 1190px;
+animation-name: purple-c2-r; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes milk { 
+	0% {margin-top:0;}
+	50% {margin-top: -500px;}
+	100% {margin-top: 0;}
+}
+.milk {position: absolute; width: 160px; top: 550px; left: 1600px;
+animation-name: milk; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes blue-c2 {
+	0% {margin-top:0;}
+	50% {margin-top: 450px;}
+	100% {margin-top: 0;}
+}
+.blue-c2 {position: absolute; width: 100px; top: 50px; left: 150px;
+animation-name: blue-c2; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes orange-c2 { 
+	0% {margin-top:0;}
+	50% {margin-top: 200px;}
+	100% {margin-top: 0;}
+}
+.orange-c2 {position: absolute; width: 100px; top: 650px; left: 450px;
+animation-name: orange-c2; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes red-c2 {
+	0% {margin-top: 0;}
+	50% {margin-top: -200px;}
+	100% {margin-top: 0;}
+}
+.red-c2 {position: absolute; width: 100px; top: 850px; left: 200px;
+animation-name: red-c2; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes green-c2-r { 
+	0% {margin-top:0;}
+	50% {margin-top: -500px;}
+	100% {margin-top: 0;}
+}
+.green-c2-r {position: absolute; width: 110px; top: 850px; left: 1305px;
+animation-name: green-c2-r; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes red-c3-r { 
+	0% {margin-top:0;}
+	50% {margin-top: -650px;}
+	100% {margin-top: 0;}
+}
+.red-c3-r {position: absolute; width: 100px; top: 650px; left: 1375px;
+animation-name: red-c3-r; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes purple-c3-r { 
+	0% {margin-top:0;}
+	50% {margin-top: -150px;}
+	100% {margin-top: 0;}
+}
+.purple-c3-r {position: absolute; width: 100px; top: 850px; left: 1450px;
+animation-name: purple-c3-r; animation-duration: 5s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
